@@ -1,0 +1,116 @@
+table, th, td{border: 1px solid blue;}
+table{ width:100%; }
+
+header{
+	width:90%;
+	height:140px;
+	margin:5px auto;
+	background:#C0C0C0;
+}
+
+.banner{
+	display:inline-block;
+	font-family:"Bodoni MT Black";
+	font-weight:bold;
+	font-style:italic;
+	font-size:30px;
+	color:#fff;
+	
+}
+.search{
+	display:inline-block;
+	margin-left:200px;
+}
+header input{
+	margin-top:30px;
+	margin-right:100px;
+	width:120px;
+	height:30px;
+	background:#eee;
+	font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+	color:#aaa;
+	border: 1px solid #fff;
+	border-radius:5px;
+}
+
+header nav ul{
+	
+	text-align:center;
+}
+header nav ul>li{
+	display:inline;
+}
+header nav ul>li a{
+	padding:10px 10px;
+	letter-spacing:5px;
+	font-size:18px;
+	color:#EEEEEE;
+}
+header nav ul>li.active a{
+	font-weight:bold;
+	color:#fff;
+	border-bottom:3px solid #fff;
+}
+
+/* 创建三个相等的列 */
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+
+
+th{text-align:center;height:70px;}
+td{text-align:center;height:50px; vertical-align:bottom; }
+.td_color{background-color:green;color:white; }
+p1
+{
+	padding-top: 10px;
+	padding-right: 0.25em;
+	padding-bottom: 2ex;	
+	padding-left: 20%;
+
+	color:green;
+	line-height:400%;
+}
+.picture
+{	
+	transform:scale(0.8)
+	float:left;
+}
+#CFX
+{
+text-align:center;
+border:2px solid #a1a1a1;
+padding:10px 40px;
+background:#eee;
+width:300px;
+border-radius:15px;
+}
+
+#Erebus{
+width:300px; //必须设置元素宽度，宽度不确定无法居中。
+border:2px solid #eee;
+margin: 10px auto;
+}
+
+p2
+{	
+	color:red;
+	font-weight:900;
+	font-size:20px;
+	letter-spacing:2px;
+}
+	a:link{color:#00F;}
+	a:visited{color:#0F0;}
+	a:hover{color:#F0F;}
+	a:active{color:#F00;}
+body{
+background-image:url(Erebus.png);
+background-repeat:no-repeat ;
+background-size:100% ;
+color:black;
+}
+#IT{font-style:italic;font-weight:normal;}
+h1,h2{text-align:center;color:blue;}
+h3,h4,h5,h6{text-align:center;color:black}
